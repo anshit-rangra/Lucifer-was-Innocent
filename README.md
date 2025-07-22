@@ -31,6 +31,8 @@ LUCIFER WAS INNOCENT/
 ├── README.md
 ├── src/
 │   ├── App.jsx
+│   ├── index.css         # Global styles
+│   ├── main.jsx
 │   ├── components/
 │   │   ├── layout/
 │   │   │   ├── footer/
@@ -42,15 +44,13 @@ LUCIFER WAS INNOCENT/
 │   │   │       ├── MobileNavButton.jsx
 │   │   │       └── NavButton.jsx
 │   │   └── ui/
-│   │       ├── animation.css
+│   │       ├── animation.css   # UI-specific styles
 │   │       ├── Animation.jsx
 │   │       ├── BuyForm.jsx
 │   │       ├── CustomParticles.jsx
 │   │       ├── Loader.jsx
 │   │       ├── SmokeEffect.jsx
 │   │       └── SucessMessageBox.jsx
-│   ├── index.css
-│   ├── main.jsx
 │   └── pages/
 │       ├── About.jsx
 │       ├── BuyProduct.jsx
