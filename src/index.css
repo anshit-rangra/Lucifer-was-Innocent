@@ -1,0 +1,91 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+.blood-drip {
+            position: absolute;
+            top: 0;
+            background: linear-gradient(to bottom, #ff0000, #8b0000);
+            border-radius: 0 0 50% 50%;
+          }
+
+body{
+  background-color: black;
+}
+
+*::selection{
+  background-color: rgb(200, 45, 45);
+  color:black;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.font-cinzel {
+    font-family: 'Cinzel', serif;
+  }
+  
+  .font-gothic {
+    font-family: 'UnifrakturCook', cursive;
+  }
+
+.book:hover .frontbook{
+  transform: rotateZ(-45deg);
+}
+
+.book:hover .firstpage{
+  transform: rotateZ(-35deg);
+}
+
+.book:hover .secondpage{
+  transform: rotateZ(-25deg);
+}
+
+.book:hover .thirdpage{
+  transform: rotateZ(-15deg);
+}
+
+
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #030303; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #171717; 
+  border-radius: 10px;
+  border: 2px solid #111; 
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #151515 #111;
+}
+
+ @keyframes float {
+     0% { transform: translateY(0) translateX(0); opacity: 0; }
+     10% { opacity: 0.7; }
+     90% { opacity: 0.7; }
+     100% { transform: translateY(-100vh) translateX(20px); opacity: 0; }
+   }
+
+   @keyframes blinkRed {
+    0%, 100% {
+      color: rgb(127, 5, 5);
+    }
+    50% {
+      color: red;
+    }
+  }
+  
+  .blink-red {
+    animation: blinkRed 1.5s infinite;
+  }
+  

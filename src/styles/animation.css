@@ -1,0 +1,41 @@
+.anime-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page {
+    width: 20rem;
+    height: 80vh;
+    border-radius: 30px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    border: 2px solid white;
+    
+}
+
+.img1{
+    background-image: url("https://i.pinimg.com/736x/44/5c/a8/445ca880651c738bc7905a2d088f2a30.jpg");
+}
+
+.img2{
+    background-image: url("https://i.pinimg.com/736x/d4/a3/ed/d4a3edcfe2c185119ce9348e178dcabe.jpg");
+}
+
+.img3{
+    background-image: url("https://i.pinimg.com/1200x/c2/b6/55/c2b6557479d8eccf73f83ce5f2bab590.jpg");
+}
+
+.img4{
+    background-image: url("https://i.pinimg.com/1200x/ce/eb/62/ceeb62af519a70462439765b20d34734.jpg");
+}
+
+.img5{
+    background-image: url("https://i.pinimg.com/1200x/56/81/32/568132820cbb9bcf256e38125d500f58.jpg");
+}
+
+.img6{
+    background-image: url("https://i.pinimg.com/736x/ea/8c/c0/ea8cc0fc9b2e35507c63f568ed769bf9.jpg");
+}
