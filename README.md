@@ -1,6 +1,6 @@
 # Lucifer Was Innocent
 
-A visually striking, interactive React web app that explores the forbidden truth about "Lucifer" through a unique book-ordering experience. Built with React, Vite, GSAP animations, and TailwindCSS.
+A visually striking, interactive React web app based on the book **"Lucifer Was Innocent"**. This website is created for influencer **Tirth Parsana**, the author of the book. The site offers a unique book-ordering experience and showcases the message and story behind the book.
 
 ---
 
@@ -10,22 +10,54 @@ A visually striking, interactive React web app that explores the forbidden truth
 - **Order Flow:** Users can order the book "Lucifer Was Innocent" by filling out a detailed, animated form.
 - **Responsive Design:** Fully responsive for mobile, tablet, and desktop.
 - **Reusable Components:** Modular UI components for easy maintenance and scalability.
-- **Modern Stack:** Built with React 19, Vite, TailwindCSS, GSAP, and React Router.
+- **Modern Stack:** Built with React, Vite, TailwindCSS, GSAP, and React Router.
 
 ---
 
 ## 📁 Project Structure
 
 ```
-src/
-  assets/           # Static assets (images, SVGs, etc.)
-  components/       # Reusable components (SuccessMessageBox, Loader, etc.)
-    ui/             # UI-specific components (Header, Footer, Animation, etc.)
-  pages/            # Main pages/routes (Home, About, BuyProduct, OrderDetails, Witness)
-  App.jsx           # Main app component
-  main.jsx          # Entry point
-  index.css         # Global styles
-public/             # Static files (cover images, SVGs, etc.)
+LUCIFER WAS INNOCENT/
+├── eslint.config.js
+├── index.html
+├── package-lock.json
+├── package.json
+├── public/
+│   ├── 1img.jpg
+│   ├── 3eye.jpg
+│   ├── blood.svg
+│   ├── cover.jpg
+│   └── main.jpg
+├── README.md
+├── src/
+│   ├── App.jsx
+│   ├── components/
+│   │   ├── layout/
+│   │   │   ├── footer/
+│   │   │   │   ├── Footer.jsx
+│   │   │   │   └── SocialIcon.jsx
+│   │   │   └── header/
+│   │   │       ├── Header.jsx
+│   │   │       ├── HearderIcons.jsx
+│   │   │       ├── MobileNavButton.jsx
+│   │   │       └── NavButton.jsx
+│   │   └── ui/
+│   │       ├── animation.css
+│   │       ├── Animation.jsx
+│   │       ├── BuyForm.jsx
+│   │       ├── CustomParticles.jsx
+│   │       ├── Loader.jsx
+│   │       ├── SmokeEffect.jsx
+│   │       └── SucessMessageBox.jsx
+│   ├── index.css
+│   ├── main.jsx
+│   └── pages/
+│       ├── About.jsx
+│       ├── BuyProduct.jsx
+│       ├── Home.jsx
+│       ├── ProductDetails.jsx
+│       └── Witness.jsx
+└── vite.config.js
 ```
 
 ---
@@ -33,8 +65,8 @@ public/             # Static files (cover images, SVGs, etc.)
 ## 🖥️ Main Pages
 
 - **Home:** Animated landing page with book visual and navigation.
-- **About:** Information about the book and its message.
-- **BuyProduct / OrderDetails:** Interactive form to order the book, with real-time price calculation and success message.
+- **About:** Information about the book, its message, and the author Tirth Parsana.
+- **BuyProduct / ProductDetails:** Interactive form to order the book, with real-time price calculation and success message.
 - **Witness:** Additional content or testimonials.
 
 ---
