@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const MobileNavButton = ({ to, icon, text, onClick }) => (
     <Link 
       to={to} 

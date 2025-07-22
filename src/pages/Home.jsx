@@ -43,11 +43,11 @@ const Home = () => {
               {["forthpage", "thirdpage", "secondpage", "firstpage"].map(
                 (cur) => {
                   return (
-                    <>
+                    <div key={cur}>
                       <div
                         className={`${cur} w-full h-full rounded-4xl absolute top-0 left-0 bg-[url('https://imgs.search.brave.com/jYMVOCbIVSbZ3iHP6HdxeKfl657EeWhvvQQ1whzB7dA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzNkL2Ez/LzQwLzNkYTM0MDNm/NGEzOWI5NzU3ODZh/MjAwOGE5YTUzMzdm/LmpwZw')] bg-cover bg-center z-40 origin-bottom-left transition-transform duration-1000`}
                       ></div>
-                    </>
+                    </div>
                   );
                 }
               )}

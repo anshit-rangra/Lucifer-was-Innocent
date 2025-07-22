@@ -1,5 +1,7 @@
+import { Link } from "react-router-dom";
+
 const NavButton = ({ to, icon, text }) => (
-    <Link 
+    <Link
       to={to} 
       className="relative h-8 px-3 sm:px-4 flex items-center justify-center border border-red-500 bg-transparent rounded-full text-xs font-medium tracking-wider cursor-pointer overflow-hidden group"
     >
