@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { gsap } from 'gsap';
 import MobileNavButton from './MobileNavButton'
 import NavButton from './NavButton'
-import { CartIcon, HomeIcon, InfoIcon, UserIcon } from './HeaderIcons';
+import { CartIcon, HomeIcon, InfoIcon, UserIcon, MenuIcon, CloseIcon } from './HeaderIcons';
 
 const DarkHeader = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
