@@ -113,7 +113,7 @@ const ProductDetails = () => {
                 <p className="text-sm sm:text-base text-gray-300 mb-6 leading-relaxed">{page.description}</p>
                 <div className="flex flex-col sm:flex-row items-center justify-between">
                   <span className="text-xl sm:text-2xl font-bold text-white mb-4 sm:mb-0">Rs. 369/-</span>
-                  <NavLink to={'/order-place'}>
+                  <NavLink to={'/place-order'}>
                     <button className="cursor-pointer px-6 py-3 bg-red-600 hover:bg-red-700 transition rounded-lg text-white font-medium w-full sm:w-fit">
                       Buy Now
                     </button>
