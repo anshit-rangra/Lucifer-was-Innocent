@@ -9,6 +9,7 @@ import Witness from "./pages/Witness";
 import Footer from "./components/layout/footer/Footer";
 import Loader from "./components/ui/Loader";
 import Animation from "./components/ui/Animation";
+import Page404 from "./pages/Page404"
 
 const App = () => {
   const location = useLocation()
@@ -44,6 +45,7 @@ const App = () => {
             <Route path="/order-details" element={<ProductDetails />} />
             <Route path="/place-order" element={<BuyProduct />} />
             <Route path="/witness" element={<Witness />} />
+            <Route path="*" element={<Page404 />} />
           </Routes>
           <Footer />
     </>
